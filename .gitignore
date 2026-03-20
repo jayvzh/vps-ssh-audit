@@ -179,3 +179,18 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# AI IDE
+.trae
+
+# HTML reports
+*.html
+
+# Auth log directories
+authlog*/
+
+# Release directory
+release/
+
+# IP cache file (contains sensitive IP data)
+ip_cache.json
